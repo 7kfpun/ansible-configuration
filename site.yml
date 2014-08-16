@@ -45,8 +45,9 @@
       - DavidWittman.ansible-redis
       - Stouts.supervisor
       - Ansibles.mysql
-      # - Stouts.sentry
+      - Stouts.sentry
       - Stouts.jenkins
+      - Stouts.postfix
 
     vars:
       - python_version: 3.4
@@ -89,6 +90,10 @@
           "greenballs",
           "maven-plugin",
           "violations"]
+
+      - postfix_enabled: no
+      - postfix_smtp_sasl_user: myemail@gmail.com
+      - postfix_smtp_sasl_password: mypassword
 
     tasks:
       - name: apt-get update
