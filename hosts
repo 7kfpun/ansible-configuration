@@ -1,0 +1,6 @@
+[local]
+localhost
+
+[launched]
+# ec2-54-187-119-145.us-west-2.compute.amazonaws.com ansible_ssh_private_key_file=~/.ssh/ec2.pem
+ec2.kfpun.com ansible_ssh_private_key_file=~/.ssh/ec2.pem
