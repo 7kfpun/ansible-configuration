@@ -1,6 +1,7 @@
 init:
-	sudo apt-get install python-boto
-	sudo pip install librarian-ansible
+	sudo apt-get install python-boto || sudo pip install boto
+	rvmsudo gem install librarian-ansible
+	# sudo pip install librarian-ansible
 
 install:
 	librarian-ansible install
