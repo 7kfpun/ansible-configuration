@@ -36,7 +36,6 @@
     - apt_install_recommends: false
     - apt_install_suggests: false
     - apt_install_packages: [
-        build-essential,
         git,
         libevent-dev,
         wget,
