@@ -14,3 +14,6 @@ update:
 
 ssh_ec2:
 	ssh ec2-54-187-119-145.us-west-2.compute.amazonaws.com
+
+deploy_monitor:
+	ansible-playbook -i monitor monitor.yml -vvvv
