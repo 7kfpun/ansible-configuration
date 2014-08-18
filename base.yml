@@ -12,7 +12,7 @@
       apt: update_cache=yes cache_valid_time=2678400
 
 - name: Configure all monitor servers
-  hosts: launched
+  hosts: all
   sudo: yes # On EC2 nodes, this is automatically passwordless. 
   remote_user: ubuntu # This is the username for all ubuntu images, rather than root, or something weird.
   gather_facts: True  #We need to re-enable this, as we turned it off earlier.
