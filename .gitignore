@@ -36,6 +36,5 @@ nosetests.xml
 .project
 .pydevproject
 
-cookbooks/
 tmp/
-librarian_roles/
+roles/
