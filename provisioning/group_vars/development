@@ -1,0 +1,15 @@
+---
+apt_packages:
+- git
+- wget
+# - libevent-dev  # mysql
+# - libmysqlclient-dev,  # mysql+
+- libssl-dev
+- libffi-dev
+- libpq-dev  # postgres
+# - gfortran,  # scipy
+# - libopenblas-dev,  # scipy
+# - liblapack-dev  # scipy
+- mc
+- silversearcher-ag
+- pgadmin3

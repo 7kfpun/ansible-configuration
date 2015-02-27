@@ -1,0 +1,16 @@
+ANXS.build-essential
+ANXS.postgresql
+Stouts.apt
+Stouts.nodejs
+Stouts.postfix
+Stouts.python
+Stouts.rabbitmq
+Stouts.resources
+Stouts.source
+Stouts.sudo
+Stouts.supervisor
+Stouts.timezone
+Stouts.users
+geerlingguy.firewall
+jdauphant.nginx
+knopki.locale
