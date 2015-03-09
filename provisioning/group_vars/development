@@ -10,6 +10,7 @@ apt_packages:
 # - gfortran,  # scipy
 # - libopenblas-dev,  # scipy
 # - liblapack-dev  # scipy
+- libmemcached-dev  # memcached
 - mc
 - silversearcher-ag
 - pgadmin3
