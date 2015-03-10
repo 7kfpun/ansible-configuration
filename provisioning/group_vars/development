@@ -11,6 +11,7 @@ apt_packages:
 # - libopenblas-dev,  # scipy
 # - liblapack-dev  # scipy
 - libmemcached-dev  # memcached
+- libjemalloc-dev  # redis
 - mc
 - silversearcher-ag
 - pgadmin3
