@@ -4,14 +4,15 @@ ansible-configuration
 Ansible configuration for Vagrant development environment and configuring
 
 You should have the following installed:
-- [VirtualBox]
-- [Vagrant] 1.6.x: see [Vagrant_installation] for how to install vagrant.
+- [VirtualBox]: see [VirtualBox_download] for how to install VirtualBox.
+- [Vagrant] 1.6.x: see [Vagrant_download] for how to install vagrant.
 - [Ansible] 1.8.x: you can get ansible through *pip install ansible*.
 
 [VirtualBox]:https://www.virtualbox.org
+[VirtualBox_download]:https://www.virtualbox.org/wiki/Downloads
 [Vagrant]:http://www.vagrantup.com/
-[Vagrant_installation]:http://docs.vagrantup.com/v2/installation/index.html
-[Ansible]:https://www.virtualbox.org
+[Vagrant_download]:https://www.vagrantup.com/downloads.html
+[Ansible]:http://docs.ansible.com/intro_installation.html
 
 
 Step
