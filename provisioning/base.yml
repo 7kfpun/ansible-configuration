@@ -35,7 +35,7 @@
     - apt_cache_valid_time: 3600
     - apt_install_recommends: false
     - apt_install_suggests: false
-    - apt_install_packages: [
+    - apt_packages: [
         git,
         libevent-dev,
         wget,
