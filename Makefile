@@ -4,6 +4,7 @@ help:
 	@egrep "^# target:" [Mm]akefile | sed -e 's/^# target: //g'
 
 .PHONY: init
+# target: init - Install prerequisities
 init:
 	@sudo apt-add-repository ppa:ansible/ansible
 	@sudo apt-get update

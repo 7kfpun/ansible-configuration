@@ -67,7 +67,6 @@ After all the prerequisities met, you can boot an developing machine:
 
 Provision:
 
-    # Provision
     $ vagrant provision
     ==> default: Running provisioner: ansible...
 
