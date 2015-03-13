@@ -22,6 +22,8 @@ apt_packages:
 # - gfortran,  # scipy
 # - libopenblas-dev,  # scipy
 # - liblapack-dev  # scipy
+- libmemcached-dev  # memcached
+- libjemalloc-dev  # redis
 
 python_versions: [2.7, 3.4]
 python_install:
@@ -48,6 +50,3 @@ postgresql_user_privileges:
 
 nodejs_npm_modules:
 - npm
-- bower
-- gulp
-- jshint

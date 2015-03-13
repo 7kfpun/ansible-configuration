@@ -16,3 +16,9 @@ apt_packages:
 - silversearcher-ag
 - pgadmin3
 - dbeaver
+
+nodejs_npm_modules:
+- npm
+- bower
+- gulp
+- jshint
