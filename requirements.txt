@@ -12,5 +12,6 @@ Stouts.supervisor
 Stouts.timezone
 Stouts.users
 geerlingguy.firewall
+hudecof.ntp
 jdauphant.nginx
 knopki.locale

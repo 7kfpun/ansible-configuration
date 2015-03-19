@@ -15,4 +15,9 @@ init:
 .PHONY: install
 # target: install - Install playbooks
 install:
+	@ansible-galaxy install -r requirements.txt
+
+.PHONY: update
+# target: update - Update playbooks
+install:
 	@ansible-galaxy install -fr requirements.txt

@@ -27,5 +27,6 @@
     - Stouts.supervisor
     - Stouts.timezone
     - Stouts.users
+    - hudecof.ntp
     - jdauphant.nginx
     - knopki.locale
