@@ -15,7 +15,7 @@ apt_packages:
 - mc
 - silversearcher-ag
 - pgadmin3
-- dbeaver
+# - dbeaver
 
 nodejs_npm_modules:
 - npm
