@@ -19,7 +19,6 @@
     - ANXS.build-essential
     - ANXS.postgresql
     - Stouts.apt
-    - Stouts.nginx
     - Stouts.nodejs
     - Stouts.python
     - Stouts.rabbitmq
