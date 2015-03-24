@@ -102,10 +102,15 @@ Access machine:
 Troubleshooting
 ===============
 
-    Enable Virtualization Technology (vt-x) in BIOS
+    1. Enable Virtualization Technology (vt-x) in BIOS
 
     If the provider you're using has a GUI that comes with it,
     it is often helpful to open that and watch the machine, since the
     GUI often has more helpful error messages than Vagrant can retrieve.
     For example, if you're using VirtualBox, run vagrant up while the
     VirtualBox GUI is open.
+
+
+    2. ImportError: cannot import name IncompleteRead
+
+    $ easy_install -U pip
