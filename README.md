@@ -26,7 +26,7 @@ Clone project:
 
 Install Ansible libraries:
 
-    $ ansible-galaxy install -r --force requirements.txt
+    $ ansible-galaxy install -r requirements.txt --force
     ==> downloading role 'build-essential', owned by ANXS
     no version specified, installing v1.0.1
     - downloading role from https://github.com/ANXS/build-essential/archive/v1.0.1.tar.gz
